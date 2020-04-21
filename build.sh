@@ -1,0 +1,1 @@
+docker build -t haritkumar/apache-php-7.0 .
