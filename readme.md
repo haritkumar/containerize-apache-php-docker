@@ -4,6 +4,7 @@
 - Step1 : Clone repo
 ```sh
 git clone https://github.com/haritkumar/containerize-apache-php-docker.git
+cd containerize-apache-php-docker
 ```
 
 - Step 2 : Build docker image 
@@ -17,6 +18,7 @@ docker run -p 8080:80 haritkumar/apache-php-7.0
 ```
 
 - Step 4 : Access site
+
 `http://localhost:8080/`
 
 ### Start container in interactive mode
